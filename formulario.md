@@ -101,7 +101,7 @@ Per convertire un generatore di tensione in serie ad una resistenza con un gener
 
 $E$ è il generatore di tensione con unità Volt ($V$)
 $I$ è il generatore di corrente con unità Ampere ($A$)
-$R$ è la resistenza con unità Ohm ($R$)
+$R$ è il valore della resistenza con unità Ohm ($R$)
 
 ---
 
