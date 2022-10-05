@@ -107,6 +107,8 @@ $R$ è il valore della resistenza con unità Ohm ($R$)
 
 # Kirkoff
 
+### KVL <rs> Essenziale </rs>
+
 ---
 
 ### Thevenin <rs> Essenziale </rs>
@@ -116,3 +118,7 @@ Passo 1
 Identificare il carico e rimuoverlo dal circuito
 
 Passo 2
+Calcolare il generatore e la resistenza di Thevenin 
+
+Passo 3
+Ricollegare il carico
