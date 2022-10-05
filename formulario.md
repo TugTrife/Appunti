@@ -4,9 +4,15 @@ fm {
     float: left;
     margin-right: 100%;
 }
+rs {
+    color: red;
+}
+gr {
+    color: green;
+}
 </style>
 
-### Resistenze in serie <span style="color:red"> Essenziale </span>
+### Resistenze in serie <rs> Essenziale </rs>
 Per semplificare più resistenze in serie in una sola detta "equivalente"
 
 <fm> $$ Req = R1 + R2 + ... + Rk $$ </fm>
@@ -15,7 +21,7 @@ $Req$ è il valore della resistenza equivalente con unità Ohm ($\Omega$)
 $R1; R2; ...; Rk$ sono le resistenze in serie con unità Ohm ($\Omega$)
 
 ---
-### Resistenze in parallelo <span style="color:red"> Essenziale </span>
+### Resistenze in parallelo <rs> Essenziale </rs>
 Per semplificare più resistenze in parallelo in una sola detta "equivalente"
 
 <fm> $$ Req = {1 \over {1 \over R1} + {1 \over R2} + ... + {1 \over Rk}} $$ </fm>
@@ -25,7 +31,7 @@ $R1; R2; ...; Rk$ sono le resistenze in parallelo con unità Ohm ($\Omega$)
 
 ---
 
-### 2 Resistenze in parallelo <span style="color:green"> Opzionale </span>
+### 2 Resistenze in parallelo <gr> Opzionale </gr>
 Per semplificare 2 resistenze in parallelo in una sola detta "equivalente"
 
 <fm> $$ Req = {R1 * R2 \over R1 + R2} $$ </fm>
@@ -35,7 +41,7 @@ $R1 ;  R2$ sono le 2 resistenze in parallelo con unità Ohm ($\Omega$)
 
 ---
 
-### Legge di Ohm <span style="color:red"> Essenziale </span>
+### Legge di Ohm <rs> Essenziale </rs>
 Per trovare la corrente che attraversa una determinata resistenza sapendo la tensione
 
 <fm> $$ \Delta V = R * I $$ </fm>
@@ -46,7 +52,7 @@ $I$ è la corrente con unità Ampere ($A$)
 
 ---
 
-### Seconda Legge di Ohm <span style="color:green"> Esercizio raro </span>
+### Seconda Legge di Ohm <gr> Esercizio raro </gr>
 Per trovare la resistenza di un conduttore sapendo la lunghezza, l'area della sezione e la resistività
 
 <fm> $$ R = \rho * {l \over A} $$ </fm>
@@ -58,7 +64,7 @@ $A$ è l'area della sezione con unità Metri quadri ($m^2$)
 
 ---
 
-### Partitore di tensione <span style="color:red"> Essenziale </span>
+### Partitore di tensione <rs> Essenziale </rs>
 Per trovare la tensione ai capi di una determinata resistenza in una serie
 
 <fm> $$ \Delta Vn = \Delta V * {Rn \over R1 + R2 + Rn + ... + Rk} $$ </fm>
@@ -70,7 +76,7 @@ $R1; R2; ...; Rk$ sono tutte le resistenze in serie con unità Ohm ($\Omega$)
 
 ---
 
-### Partitore di corrente <span style="color:red"> Essenziale </span>
+### Partitore di corrente <rs> Essenziale </rs>
 Per trovare la corrente che attraversa una determinata resistenza in parallelo ad altre
 
 <fm> $$ In = I * {{1 \over Rn} \over {1 \over R1} + {1 \over R2} + {1 \over Rn} + ... + {1 \over Rk}} $$ </fm>
@@ -82,11 +88,15 @@ $R1; R2; ...; Rk$ sono tutte le resistenze in parallelo con unità 1 su Ohm ($1 
 
 ---
 
+### Generatore equivalente
+
+---
+
 # Kirkoff
 
 ---
 
-### Thevenin <span style="color:red"> Essenziale </span>
+### Thevenin <rs> Essenziale </rs>
 Si usa per semplificare un circuito complesso in uno più semplice
 
 Passo 1
