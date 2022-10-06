@@ -97,7 +97,7 @@ $R1; R2; ...; Rk$ sono tutte le resistenze in parallelo con unità 1 su Ohm ($1 
 ### Generatore equivalente <or> Possibile </or>
 Per convertire un generatore di tensione in serie ad una resistenza con un generatore di corrente in parallelo ad una resistenza e vicevers
 
-<fm> $$ E = I * R $$$$ I = {E \over R} $$ </fm>
+<fm> $$ E = I * R $$ $$ I = {E \over R} $$ </fm>
 
 $E$ è il generatore di tensione con unità Volt ($V$)
 $I$ è il generatore di corrente con unità Ampere ($A$)
