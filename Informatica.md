@@ -17,4 +17,9 @@
 ---
 
 ### Vettori
-Sono un tipo di variabile 
+Sono un tipo di variabile in grado di contenere "una lista" di lunghezza prestabilita di variabili alle quali si può accedere tramite il suo indice.
+
+---
+
+### Funzioni
+Una funzione è una parte di codice, solitamente eseguita piu volte, che può essere chiamata tramite un nome. Una funzione può accettare argomenti ovvero valori o parametri aggiuntivi.
