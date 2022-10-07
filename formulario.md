@@ -27,6 +27,7 @@ $Req$ è il valore della resistenza equivalente con unità Ohm ($\Omega$)
 $R1; R2; ...; Rk$ sono le resistenze in serie con unità Ohm ($\Omega$)
 
 ---
+
 ### Resistenze in parallelo <rs> Essenziale </rs>
 Per semplificare più resistenze in parallelo in una sola detta "equivalente"
 
